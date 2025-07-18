@@ -3,7 +3,7 @@ how to run
 
 ---
 sudo crontab -e
-add "@reboot python3 /home/pi/boot_LCD/LCD.py &" at last line 
+add "@reboot python3 /home/pi/start_up/led_startup.py &" at last line 
 ---
 
 tbf - show no ssid, - crontab no permission 
